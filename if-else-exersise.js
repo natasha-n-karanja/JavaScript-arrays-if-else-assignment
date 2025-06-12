@@ -133,4 +133,13 @@ if (x >= y && x >= z) {
   console.log("z is the largest");
 }
 
+//15. Weekend or weekday
+let day = "Sunday";
+
+if (day === "Saturday" || day === "Sunday") {
+  console.log("Weekend");
+} else {
+  console.log("Weekday");
+}
+
 //
