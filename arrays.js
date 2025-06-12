@@ -32,3 +32,7 @@ for (let fruit of fruits) {
 //9. Join all array elements into a single string, separated by commas
 const fruitString = fruits.join(", ");
 console.log(fruitString);
+
+//10. Use map() to create a new array with the length of each fruit name
+const nameLengths = fruits.map(fruit => fruit.length);
+console.log(nameLengths);
