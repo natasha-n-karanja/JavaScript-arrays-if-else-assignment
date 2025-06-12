@@ -103,3 +103,12 @@ if (str === "") {
   console.log("Not empty");
 }
 
+//11. Compare two strings
+let str1 = "hello";
+let str2 = "hello";
+
+if (str1 === str2) {
+  console.log("Strings are equal");
+} else {
+  console.log("Strings are not equal");
+}
