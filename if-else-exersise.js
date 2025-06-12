@@ -17,3 +17,12 @@ if (num % 2 === 0) {
 } else {
   console.log("Odd number");
 }
+
+//3. Check voting eligibility (age ≥ 18)
+let age = 17;
+
+if (age >= 18) {
+  console.log("Eligible to vote.");
+} else {
+  console.log("Not eligible to vote.");
+}
