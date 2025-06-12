@@ -33,3 +33,12 @@ const students = [
   { name: "Charlie", age: 19 }
 ];
 console.log(students);
+
+//8. Find the student with the highest age
+let oldest = students[0];
+for (let student of students) {
+  if (student.age > oldest.age) {
+    oldest = student;
+  }
+}
+console.log(oldest);
