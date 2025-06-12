@@ -72,3 +72,12 @@ if (score >= 90) {
   console.log("Grade: F");
 }
 
+//8. Vowel or consonant check
+let char = 'e';
+
+if ("aeiouAEIOU".includes(char)) {
+  console.log("Vowel");
+} else {
+  console.log("Consonant");
+}
+
