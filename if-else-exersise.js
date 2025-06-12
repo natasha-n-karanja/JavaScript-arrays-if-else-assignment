@@ -8,3 +8,12 @@ if (number > 0) {
 } else {
   console.log("The number is zero.");
 }
+
+//2. Check if a number is even or odd
+let num = 8;
+
+if (num % 2 === 0) {
+  console.log("Even number");
+} else {
+  console.log("Odd number");
+}
