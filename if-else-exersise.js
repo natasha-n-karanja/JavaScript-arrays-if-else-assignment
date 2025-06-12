@@ -190,3 +190,11 @@ if (num5 <= 1) {
 
 console.log(isPrime ? "Prime number" : "Not a prime number");
 
+//20. Pass/fail based on score (pass mark is 40)
+let score2 = 35;
+
+if (score2 >= 40) {
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
