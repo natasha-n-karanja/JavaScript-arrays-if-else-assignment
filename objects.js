@@ -25,3 +25,11 @@ console.log("brand" in car); // true
 for (let key in car) {
   console.log(`${key}: ${car[key]}`);
 }
+
+//7. Create an array of 3 student objects
+const students = [
+  { name: "Alice", age: 21 },
+  { name: "Bob", age: 24 },
+  { name: "Charlie", age: 19 }
+];
+console.log(students);
