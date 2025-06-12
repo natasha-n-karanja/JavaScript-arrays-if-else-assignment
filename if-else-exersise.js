@@ -173,3 +173,20 @@ if (username === "admin" && password === "pass123") {
   console.log("Invalid credentials");
 }
 
+//19. Prime number check (basic logic)
+let num5 = 7;
+let isPrime = true;
+
+if (num5 <= 1) {
+  isPrime = false;
+} else {
+  for (let i = 2; i < num5; i++) {
+    if (num5 % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+}
+
+console.log(isPrime ? "Prime number" : "Not a prime number");
+
