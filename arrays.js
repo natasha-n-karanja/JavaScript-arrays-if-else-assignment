@@ -28,3 +28,7 @@ console.log(fruits.length);
 for (let fruit of fruits) {
   console.log(fruit.toUpperCase());
 }
+
+//9. Join all array elements into a single string, separated by commas
+const fruitString = fruits.join(", ");
+console.log(fruitString);
