@@ -48,3 +48,12 @@ if (num2 % 3 === 0 && num % 5 === 0) {
   console.log("Not divisible by both");
 }
 
+//6. Check if a year is a leap year
+let year = 2024;
+
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+  console.log("Leap year");
+} else {
+  console.log("Not a leap year");
+}
+
