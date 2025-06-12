@@ -20,3 +20,8 @@ console.log(car);
 
 //5. Check if the brand property exists
 console.log("brand" in car); // true
+
+//6. Loop through all properties of the car
+for (let key in car) {
+  console.log(`${key}: ${car[key]}`);
+}
