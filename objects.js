@@ -42,3 +42,8 @@ for (let student of students) {
   }
 }
 console.log(oldest);
+
+//9. Add a new student object
+students.push({ name: "Dana", age: 22 });
+console.log(students);
+
