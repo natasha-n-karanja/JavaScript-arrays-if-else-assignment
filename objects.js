@@ -13,3 +13,7 @@ console.log(car);
 //3. Change the year property
 car.year = 2023;
 console.log(car);
+
+//4. Delete the model property
+delete car.model;
+console.log(car);
