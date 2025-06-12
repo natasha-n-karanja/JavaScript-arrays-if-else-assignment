@@ -17,3 +17,6 @@ console.log(car);
 //4. Delete the model property
 delete car.model;
 console.log(car);
+
+//5. Check if the brand property exists
+console.log("brand" in car); // true
