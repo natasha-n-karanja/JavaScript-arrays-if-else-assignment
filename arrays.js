@@ -23,3 +23,8 @@ console.log(fruits.includes("banana")); // true or false
 
 //7. Find the length of the array
 console.log(fruits.length);
+
+//8. Loop through the array and print each fruit in uppercase
+for (let fruit of fruits) {
+  console.log(fruit.toUpperCase());
+}
