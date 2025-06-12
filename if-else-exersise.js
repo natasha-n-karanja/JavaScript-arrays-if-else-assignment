@@ -94,3 +94,12 @@ if (age2 < 13) {
   console.log("Senior");
 }
 
+//10. Check if a string is empty
+let str = "";
+
+if (str === "") {
+  console.log("Empty string");
+} else {
+  console.log("Not empty");
+}
+
