@@ -163,3 +163,13 @@ if (temp >= 30) {
   console.log("Cold");
 }
 
+//18. Login validation (username & password)
+let username = "admin";
+let password = "pass123";
+
+if (username === "admin" && password === "pass123") {
+  console.log("Login successful");
+} else {
+  console.log("Invalid credentials");
+}
+
