@@ -47,3 +47,6 @@ console.log(oldest);
 students.push({ name: "Dana", age: 22 });
 console.log(students);
 
+//10.Convert one of the student objects to a JSON string
+const jsonString = JSON.stringify(students[0]);
+console.log(jsonString);
