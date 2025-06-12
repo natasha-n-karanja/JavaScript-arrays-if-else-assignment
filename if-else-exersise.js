@@ -112,3 +112,14 @@ if (str1 === str2) {
 } else {
   console.log("Strings are not equal");
 }
+
+//12. Check if a number is between 10 and 50
+let num3 = 30;
+
+if (num3 >= 10 && num3 <= 50) {
+  console.log("Number is between 10 and 50");
+} else {
+  console.log("Number is outside the range");
+}
+
+//
