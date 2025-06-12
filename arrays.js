@@ -13,3 +13,7 @@ console.log(fruits);
 //4. Sort the array in alphabetical order
 fruits.sort();
 console.log(fruits);
+
+//5. Reverse the order of the array
+fruits.reverse();
+console.log(fruits);
