@@ -152,3 +152,14 @@ if (num4 % divisor === 0) {
   console.log(`${num4} is not a multiple of ${divisor}`);
 }
 
+//17. Check if temperature is hot, warm, or cold
+let temp = 15;
+
+if (temp >= 30) {
+  console.log("Hot");
+} else if (temp >= 20) {
+  console.log("Warm");
+} else {
+  console.log("Cold");
+}
+
