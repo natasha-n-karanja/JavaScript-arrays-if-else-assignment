@@ -17,3 +17,6 @@ console.log(fruits);
 //5. Reverse the order of the array
 fruits.reverse();
 console.log(fruits);
+
+//6. Check if a certain fruit exists in the array
+console.log(fruits.includes("banana")); // true or false
