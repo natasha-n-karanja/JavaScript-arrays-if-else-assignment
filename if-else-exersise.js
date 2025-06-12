@@ -142,4 +142,13 @@ if (day === "Saturday" || day === "Sunday") {
   console.log("Weekday");
 }
 
-//
+//16. Check if a number is a multiple of another
+let num4 = 20;
+let divisor = 5;
+
+if (num4 % divisor === 0) {
+  console.log(`${num4} is a multiple of ${divisor}`);
+} else {
+  console.log(`${num4} is not a multiple of ${divisor}`);
+}
+
