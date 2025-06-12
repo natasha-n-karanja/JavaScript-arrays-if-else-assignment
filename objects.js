@@ -5,3 +5,7 @@ const car = {
   year: 2020
 };
 console.log(car);
+
+//2. Add a new property color
+car.color = "blue";
+console.log(car);
