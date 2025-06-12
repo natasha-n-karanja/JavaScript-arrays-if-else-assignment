@@ -26,3 +26,15 @@ if (age >= 18) {
 } else {
   console.log("Not eligible to vote.");
 }
+
+//4. Compare two numbers
+let a = 10;
+let b = 20;
+
+if (a > b) {
+  console.log("a is greater");
+} else if (a < b) {
+  console.log("b is greater");
+} else {
+  console.log("Both are equal");
+}
