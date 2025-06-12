@@ -38,3 +38,13 @@ if (a > b) {
 } else {
   console.log("Both are equal");
 }
+
+//5. Check if a number is divisible by both 3 and 5
+let num2 = 15;
+
+if (num2 % 3 === 0 && num % 5 === 0) {
+  console.log("Divisible by both 3 and 5");
+} else {
+  console.log("Not divisible by both");
+}
+
