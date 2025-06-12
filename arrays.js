@@ -20,3 +20,6 @@ console.log(fruits);
 
 //6. Check if a certain fruit exists in the array
 console.log(fruits.includes("banana")); // true or false
+
+//7. Find the length of the array
+console.log(fruits.length);
