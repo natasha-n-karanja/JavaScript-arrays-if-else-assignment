@@ -57,3 +57,18 @@ if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
   console.log("Not a leap year");
 }
 
+//7. Simple grade system
+let score = 85;
+
+if (score >= 90) {
+  console.log("Grade: A");
+} else if (score >= 80) {
+  console.log("Grade: B");
+} else if (score >= 70) {
+  console.log("Grade: C");
+} else if (score >= 60) {
+  console.log("Grade: D");
+} else {
+  console.log("Grade: F");
+}
+
