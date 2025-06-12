@@ -122,4 +122,15 @@ if (num3 >= 10 && num3 <= 50) {
   console.log("Number is outside the range");
 }
 
+//13. Find the largest of three numbers
+let x = 10, y = 25, z = 15;
+
+if (x >= y && x >= z) {
+  console.log("x is the largest");
+} else if (y >= x && y >= z) {
+  console.log("y is the largest");
+} else {
+  console.log("z is the largest");
+}
+
 //
