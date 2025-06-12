@@ -81,3 +81,16 @@ if ("aeiouAEIOU".includes(char)) {
   console.log("Consonant");
 }
 
+//9. Age category (child, teen, adult, senior)
+let age2 = 65;
+
+if (age2 < 13) {
+  console.log("Child");
+} else if (age2 >= 13 && age2 < 20) {
+  console.log("Teenager");
+} else if (age2 >= 20 && age2 < 60) {
+  console.log("Adult");
+} else {
+  console.log("Senior");
+}
+
